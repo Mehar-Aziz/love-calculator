@@ -11,4 +11,8 @@ love_count = name1_lower.count('l') + name1_lower.count('o') + name1_lower.count
 
 total_count = int(str(true_count) + str(love_count))
 if total_count < 10 or total_count > 90:
-  print(f"Your Love Score is {total_count}%, you go together like coke and mentos ")
+  print(f"Your Love Score is {total_count}%, you go together like coke and mentos.")
+elif total_count >= 40 and total_count <= 50:
+  print(f"Your Love Score is {total_count}%, you are alright together.")
+else:
+  print(f"Your score is {total_count}%")
